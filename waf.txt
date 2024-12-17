@@ -1,0 +1,25 @@
+1) Go to waf page
+Create ip set -> create ip set -> search to what is my ip on google -> copy the ip in /32 format and paste it in ip set and create ip set
+2) Create a web acl
+3) Give your web acl a name like "MyapplicationWAF" and description
+4) Under aws resoures to associate , select the resource you want to 
+protect such as ALB , Network lb
+
+NEXT
+
+5) Add rules -> Add my own rules and rules group
+ipset rule
+Name of rule : ipsetrule
+Scroll down 
+select ip set rule
+Action: block
+Add rule
+
+Next
+next
+Create a web ACL
+
+Since we have created a WEbacl we will not be able to access the load balancer from the network 
+
+
+
