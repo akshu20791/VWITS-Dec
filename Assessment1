@@ -1,0 +1,5 @@
+1) Launch a Ec2 machine with termination protection which should give error message when we terminate the machine
+2) Create a bucket -> make s3 bucket public -> upload object -> make the object as public -> now change the object back to private .how to do it?
+3) launch Public S3 bucket -> upload object -> make your object public -> make s3 private -> will you be able to access object?
+4) Create two amazon linux machine and create a common efs storage 
+5) Create ubuntu Ec2 machine and how will you access s3 bucket from ec2 machine ....without internet
